@@ -81,11 +81,8 @@ h1 {
 }
 
 .box{
-	display: inline-block;
-	width:100%;
-	max-width: 83px;
-
-	padding-left:23%;	
+	display: inline-block;	
+	margin-left:15%;	
 }
 
 .box img{
