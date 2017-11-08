@@ -20,7 +20,6 @@ html, body {
 .navbar-header {
 	padding-top: 2%;
 	height: 75px;
-	/* width: 350px; */
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	text-align: center;
@@ -72,7 +71,6 @@ h1 {
 
 /*connect box*/
 .connect {
-	/* float: left; */
 	margin: 0 auto; 
 	margin-top: 5%;
 	height: 200px;
@@ -97,8 +95,6 @@ h1 {
 
 .connect {
 	margin-top: 5%;
-	/* width: 100%;
-	max-width: 270px; */
 	height: 200px;
 	background-color: white;
 	border: #ccc 3px solid;
@@ -121,7 +117,6 @@ label,
 input[type=text],
 input[type=email],
 .help-block {
-	/* display: block; */
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: rgb(124, 124, 124);
 	font-size: 20px;
