@@ -18,7 +18,7 @@ html, body {
 }
 
 .navbar-header {
-	padding-top: 2%;
+	padding: 20px 20px 0 20px;
 	height: 75px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
@@ -39,9 +39,18 @@ ul li {
 	border-left: 1px solid #ccc;
 }
 
+a:hover {
+	color: #4aaaa5;
+}
+
 li:first-of-type {
 	border: none;
 }
+
+/* #custom {
+	background-color: red;
+	padding: 10%;
+} */
  
 /*about me*/
 .about {
@@ -135,13 +144,13 @@ input[type=email],
 }
 
 button[type=submit] {	
-		background-color: #4aaaa5;
-		color: white;
-		padding: 10px 10px;
-		width: 80px;
-		height: 50px;
-		cursor: pointer;
-		font-size: 15px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 10px;
+	width: 80px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 15px;
 }
 
 /* protfolio */
@@ -149,6 +158,7 @@ button[type=submit] {
 	opacity: .75%;
 	height: 200px;
 	width: 200px;
+	
 }
 .name {
 	text-align: center;
@@ -159,7 +169,11 @@ button[type=submit] {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	color: white;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	
 }
+
 
 /*footer*/
 .footer {
@@ -173,4 +187,5 @@ button[type=submit] {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
 	font-size: 18px;
+	border-top: 8px #4aaaa5 solid;
 }	
